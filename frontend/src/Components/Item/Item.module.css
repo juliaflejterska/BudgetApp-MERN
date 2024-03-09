@@ -1,0 +1,52 @@
+.item {
+  background-color: #ffffff;
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 1.5rem;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5rem;
+
+  @media only screen and (max-width: 992px) {
+    width: 70%;
+  }
+}
+
+.piggy {
+  width: 80px;
+  height: 80px;
+
+  @media only screen and (max-width: 992px) {
+    display: none;
+  }
+}
+
+.itemContent {
+  width: 100%;
+}
+
+.itemHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itemButton {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.itemDescription {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.itemDescription p {
+  margin: 0.25rem 0;
+}
